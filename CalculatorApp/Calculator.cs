@@ -12,8 +12,10 @@ namespace CalculatorApp
 
         public int Subtract(int a, int b)
         {
+
             //Deans change1
             return a * b;
+
         }
 
         public int Multiply(int a, int b)
