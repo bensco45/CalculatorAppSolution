@@ -26,5 +26,11 @@ namespace CalculatorApp
                 throw new DivideByZeroException("Cannot divide by zero.");
             return (double)a / b;
         }
+
+        public int SquareNumber(int a)
+        {
+            //code comment from dean and ben
+            return a * a;
+        }
     }
 }
