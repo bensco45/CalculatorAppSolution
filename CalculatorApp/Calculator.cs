@@ -7,13 +7,15 @@ namespace CalculatorApp
         public int Add(int a, int b)
         {
             //code comment from ben
-            return a + b;
+            return a * b;
         }
 
         public int Subtract(int a, int b)
         {
-            //Changed / to -
-            return a - b;
+
+            //Deans change1
+            return a * b;
+
         }
 
         public int Multiply(int a, int b)
