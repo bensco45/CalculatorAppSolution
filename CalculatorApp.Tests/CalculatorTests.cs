@@ -80,5 +80,19 @@ namespace CalculatorApp.Tests
             // Act & Assert
             Assert.Throws<DivideByZeroException>(() => _calculator.Divide(a, b));
         }
+
+        [Test]
+        public void Square_ShouldReturnTheSquareOfAnInteger()
+        {
+            // Arrange
+            int a = 5;
+
+
+            // Act
+            int result = _calculator.SquareNumber(a);
+
+            // Assert
+            Assert.That(result, Is.EqualTo(25));
+        }
     }
 }
