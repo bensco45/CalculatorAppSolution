@@ -12,8 +12,8 @@ namespace CalculatorApp
 
         public int Subtract(int a, int b)
         {
-            //Chanced - to /
-            return a / b;
+            //Changed / to -
+            return a - b;
         }
 
         public int Multiply(int a, int b)
