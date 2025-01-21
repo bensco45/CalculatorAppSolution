@@ -6,6 +6,7 @@ namespace CalculatorApp
     {
         public int Add(int a, int b)
         {
+            //code comment from ben
             return a + b;
         }
 
